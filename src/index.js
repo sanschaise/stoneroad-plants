@@ -55,7 +55,11 @@ function onPointerDown(e) {
 
 function spriteOnLoop() {
     console.log("on loop")
-    this.gotoAndPlay(this.totalFrames - 3);
+    this.gotoAndPlay(this.totalFrames - randomInt(2, 5));
+}
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max + (min + 1)))
 }
 // class MySprite{
 //     constructor(path) {
