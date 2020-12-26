@@ -15,7 +15,13 @@ const app = new PIXI.Application({
 document.body.appendChild(app.view);
 
 let sheetPath = 'assets/spritesheet.json';
-let plants = ['plant01', 'plant02', 'plant03'];
+let plants = ['plant01',
+    'plant02',
+    'plant03',
+    'plant04',
+    'plant05',
+    'plant06',
+    'plant07',];
 let sheet;
 let interactionManager;
 let stage = app.stage;
@@ -42,6 +48,8 @@ function onPointerDown(e) {
     let pos = e.data.global;
     var animation = new PIXI.AnimatedSprite(sheet.animations[randomFromArray(plants) + '/sr'])
     animation.animationSpeed = 0.15;
+    animation.scale.x = Math.cos(Math.PI * randomInt(1, 10));
+    // animation.rotation = randomFloat(-100, 100);
     animation.play();
     animation.position.set(pos.x, pos.y);
     app.stage.addChild(animation);
@@ -65,6 +73,11 @@ function spriteOnLoop() {
 function randomInt(min, max) {
     return Math.floor(Math.random() * (max + (min + 1)))
 }
+
+function randomFloat(min, max) {
+    return (Math.random() * (max + (min)))
+}
+
 // class MySprite{
 //     constructor(path) {
 
