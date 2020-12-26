@@ -21,7 +21,21 @@ let plants = ['plant01',
     'plant04',
     'plant05',
     'plant06',
-    'plant07',];
+    'plant07',
+    'plant08',
+    'plant09',
+    'plant10',
+    'plant11',
+    'plant12',
+    'plant13',
+    'plant14',
+    'plant15',
+    'plant16',
+    'plant17',
+    'plant18',
+    'plant19',
+    'plant20',
+];
 let sheet;
 let interactionManager;
 let stage = app.stage;
