@@ -3,14 +3,16 @@ import * as PIXI from 'pixi.js';
 const app = new PIXI.Application({
     antialias: false,    // default: false
     //transparent: true, // default: false
-    resolution: 1,
+    resolution: window.devicePixelRatio,
     backgroundColor: 0xEEEEEE,
     interactive: true,
     resizeTo: window,
-    autoDensity: true,
+    autoDensity: false,
 
 
 });
+
+PIXI.settings.RESOLUTION = window.devicePixelRatio;
 
 document.body.appendChild(app.view);
 
