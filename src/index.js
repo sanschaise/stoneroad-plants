@@ -7,7 +7,7 @@ const app = new PIXI.Application({
     backgroundColor: 0xEEEEEE,
     interactive: true,
     resizeTo: window,
-    autoDensity: false,
+    autoDensity: true,
 
 
 });
