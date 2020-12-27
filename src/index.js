@@ -3,7 +3,7 @@ import * as PIXI from 'pixi.js';
 const app = new PIXI.Application({
     antialias: false,    // default: false
     //transparent: true, // default: false
-    resolution: 2,
+    resolution: 1,
     backgroundColor: 0xEEEEEE,
     interactive: true,
     resizeTo: window,
