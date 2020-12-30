@@ -22,25 +22,25 @@ document.body.appendChild(app.view);
 
 let sheetPath = 'assets/spritesheet.json';
 let plants = [
-    'plant01',
-    'plant02',
-    'plant03',
-    'plant04',
-    'plant05',
-    'plant06',
-    'plant07',
-    'plant08',
-    'plant09',
-    'plant10',
-    'plant11',
-    'plant12',
-    'plant13',
-    'plant14',
-    'plant15',
-    'plant16',
-    'plant17',
-    'plant18',
-    'plant19',
+    // 'plant01',
+    // 'plant02',
+    // 'plant03',
+    // 'plant04',
+    // 'plant05',
+    // 'plant06',
+    // 'plant07',
+    // 'plant08',
+    // 'plant09',
+    // 'plant10',
+    // 'plant11',
+    // 'plant12',
+    // 'plant13',
+    // 'plant14',
+    // 'plant15',
+    // 'plant16',
+    // 'plant17',
+    // 'plant18',
+    // 'plant19',
     'plant21',
 ];
 let sheet;
@@ -72,7 +72,7 @@ function onPointerDown(e) {
     animation.animationSpeed = 0.15;
 
     animation.scale.x = Math.cos(Math.PI * randomInt(1, 10));
-    animation.scale.set(isMobile ? 1 : 0.5, isMobile ? 1 : 0.5);
+    animation.scale.set(isMobile ? 1 * Math.cos(Math.PI * randomInt(1, 10)); : 0.5 * Math.cos(Math.PI * randomInt(1, 10));, isMobile ? 1 : 0.5);
     // animation.rotation = randomFloat(-100, 100);
     animation.play();
     animation.position.set(pos.x, pos.y);
