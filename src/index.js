@@ -21,7 +21,8 @@ PIXI.settings.RESOLUTION = window.devicePixelRatio;
 document.body.appendChild(app.view);
 
 let sheetPath = 'assets/spritesheet.json';
-let plants = ['plant01',
+let plants = [
+    'plant01',
     'plant02',
     'plant03',
     'plant04',
@@ -40,6 +41,7 @@ let plants = ['plant01',
     'plant17',
     'plant18',
     'plant19',
+    'plant21',
 ];
 let sheet;
 let interactionManager;
