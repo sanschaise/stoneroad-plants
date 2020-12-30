@@ -72,7 +72,7 @@ function onPointerDown(e) {
     animation.animationSpeed = 0.15;
 
     animation.scale.x = Math.cos(Math.PI * randomInt(1, 10));
-    animation.scale.set(isMobile ? 1 * Math.cos(Math.PI * randomInt(1, 10)); : 0.5 * Math.cos(Math.PI * randomInt(1, 10));, isMobile ? 1 : 0.5);
+    animation.scale.set(isMobile ? 1 * Math.cos(Math.PI * randomInt(1, 10)) : 0.5 * Math.cos(Math.PI * randomInt(1, 10)), isMobile ? 1 : 0.5);
     // animation.rotation = randomFloat(-100, 100);
     animation.play();
     animation.position.set(pos.x, pos.y);
