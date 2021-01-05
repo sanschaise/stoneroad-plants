@@ -22,26 +22,13 @@ document.body.appendChild(app.view);
 
 let sheetPath = 'assets/spritesheet.json';
 let plants = [
-    // 'plant01',
-    // 'plant02',
-    // 'plant03',
-    // 'plant04',
-    // 'plant05',
-    // 'plant06',
-    // 'plant07',
-    // 'plant08',
-    // 'plant09',
-    // 'plant10',
-    // 'plant11',
-    // 'plant12',
-    // 'plant13',
-    // 'plant14',
-    // 'plant15',
-    // 'plant16',
-    // 'plant17',
-    // 'plant18',
-    // 'plant19',
-    'plant21',
+    'plants01',
+    'plants02',
+    'plants03',
+    'plants04',
+    'plants05',
+    'plants06',
+    'plants07',
 ];
 let sheet;
 let interactionManager;
@@ -68,7 +55,7 @@ function setup() {
 function onPointerDown(e) {
     console.log(e.data.global);
     let pos = e.data.global;
-    var animation = new PIXI.AnimatedSprite(sheet.animations[randomFromArray(plants) + '/sr'])
+    var animation = new PIXI.AnimatedSprite(sheet.animations[randomFromArray(plants)])
     animation.animationSpeed = 0.15;
 
     animation.scale.x = Math.cos(Math.PI * randomInt(1, 10));
