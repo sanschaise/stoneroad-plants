@@ -67,7 +67,7 @@ function onPointerDown(e) {
     animation.onLoop = function () {
         // looped!
         // console.log("on loop")
-        animation.gotoAndPlay(this.totalFrames - 3);
+        animation.gotoAndPlay(this.totalFrames - 1);
     };
     // animation.onLoop(spriteOnLoop)
 }
