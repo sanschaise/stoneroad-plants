@@ -1,0 +1,617 @@
+{"frames": {
+
+"logo/SR-Ribbon-Tests-0000_00023.png":
+{
+	"frame": {"x":1,"y":691,"w":343,"h":283},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":50,"w":343,"h":283},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00027.png":
+{
+	"frame": {"x":1,"y":1,"w":343,"h":284},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":49,"w":343,"h":284},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00028.png":
+{
+	"frame": {"x":1,"y":346,"w":343,"h":284},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":49,"w":343,"h":284},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00029.png":
+{
+	"frame": {"x":690,"y":1724,"w":341,"h":284},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":49,"w":341,"h":284},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00043.png":
+{
+	"frame": {"x":346,"y":1726,"w":342,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00044.png":
+{
+	"frame": {"x":569,"y":1036,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00045.png":
+{
+	"frame": {"x":569,"y":1380,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00046.png":
+{
+	"frame": {"x":287,"y":1,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00047.png":
+{
+	"frame": {"x":1,"y":1036,"w":343,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00048.png":
+{
+	"frame": {"x":1,"y":1381,"w":343,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00049.png":
+{
+	"frame": {"x":1,"y":1726,"w":343,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00050.png":
+{
+	"frame": {"x":285,"y":1036,"w":343,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00051.png":
+{
+	"frame": {"x":1373,"y":285,"w":342,"h":281},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":50,"w":342,"h":281},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00052.png":
+{
+	"frame": {"x":1373,"y":568,"w":342,"h":281},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":50,"w":342,"h":281},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00053.png":
+{
+	"frame": {"x":1717,"y":667,"w":342,"h":281},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":50,"w":342,"h":281},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00054.png":
+{
+	"frame": {"x":1373,"y":851,"w":342,"h":281},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":50,"w":342,"h":281},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00055.png":
+{
+	"frame": {"x":286,"y":691,"w":343,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00056.png":
+{
+	"frame": {"x":285,"y":1381,"w":343,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":343,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00057.png":
+{
+	"frame": {"x":287,"y":345,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00058.png":
+{
+	"frame": {"x":570,"y":689,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00059.png":
+{
+	"frame": {"x":571,"y":1,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00060.png":
+{
+	"frame": {"x":571,"y":345,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00061.png":
+{
+	"frame": {"x":853,"y":1033,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00062.png":
+{
+	"frame": {"x":854,"y":689,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":50,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00063.png":
+{
+	"frame": {"x":1717,"y":1011,"w":342,"h":281},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":50,"w":342,"h":281},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00069.png":
+{
+	"frame": {"x":853,"y":1377,"w":342,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":49,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00070.png":
+{
+	"frame": {"x":1373,"y":1,"w":342,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":49,"w":342,"h":282},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00092.png":
+{
+	"frame": {"x":1033,"y":1721,"w":338,"h":284},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":113,"y":47,"w":338,"h":284},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00101.png":
+{
+	"frame": {"x":1703,"y":1355,"w":328,"h":306},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":25,"w":328,"h":306},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00105.png":
+{
+	"frame": {"x":1373,"y":1685,"w":320,"h":321},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":130,"y":10,"w":320,"h":321},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00107.png":
+{
+	"frame": {"x":1373,"y":1134,"w":315,"h":328},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":133,"y":3,"w":315,"h":328},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00113.png":
+{
+	"frame": {"x":1717,"y":1,"w":298,"h":331},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":0,"w":298,"h":331},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00114.png":
+{
+	"frame": {"x":1037,"y":299,"w":297,"h":331},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":0,"w":297,"h":331},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00115.png":
+{
+	"frame": {"x":1717,"y":334,"w":296,"h":331},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":0,"w":296,"h":331},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"logo/SR-Ribbon-Tests-0000_00119.png":
+{
+	"frame": {"x":1037,"y":1,"w":296,"h":332},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":139,"y":0,"w":296,"h":332},
+	"sourceSize": {"w":640,"h":360},
+	"anchor": {"x":0.444531,"y":0.522222}
+},
+"plants01/2.png":
+{
+	"frame": {"x":1323,"y":1137,"w":95,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":72,"w":95,"h":48},
+	"sourceSize": {"w":180,"h":180},
+	"anchor": {"x":0.494444,"y":0.533333}
+},
+"plants01/3.png":
+{
+	"frame": {"x":1802,"y":1852,"w":132,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":57,"w":132,"h":77},
+	"sourceSize": {"w":180,"h":180},
+	"anchor": {"x":0.494444,"y":0.533333}
+},
+"plants01/5.png":
+{
+	"frame": {"x":1807,"y":1685,"w":165,"h":99},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":41,"w":165,"h":99},
+	"sourceSize": {"w":180,"h":180},
+	"anchor": {"x":0.494444,"y":0.533333}
+},
+"plants02/2.png":
+{
+	"frame": {"x":1212,"y":1658,"w":46,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":98,"w":46,"h":61},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/3.png":
+{
+	"frame": {"x":1313,"y":1259,"w":56,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":105,"w":56,"h":57},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/4.png":
+{
+	"frame": {"x":1908,"y":1827,"w":50,"h":67},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":99,"w":50,"h":67},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/5.png":
+{
+	"frame": {"x":1260,"y":1658,"w":60,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":95,"w":60,"h":70},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/6.png":
+{
+	"frame": {"x":1313,"y":1317,"w":52,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":95,"w":52,"h":71},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/7.png":
+{
+	"frame": {"x":1137,"y":1658,"w":61,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":98,"w":61,"h":73},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/9.png":
+{
+	"frame": {"x":1908,"y":1685,"w":67,"h":94},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":78,"w":67,"h":94},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/13.png":
+{
+	"frame": {"x":1597,"y":1451,"w":71,"h":102},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":69,"w":71,"h":102},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/14.png":
+{
+	"frame": {"x":950,"y":568,"w":85,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":58,"w":85,"h":114},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/15.png":
+{
+	"frame": {"x":855,"y":568,"w":93,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":53,"w":93,"h":119},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants02/16.png":
+{
+	"frame": {"x":1695,"y":1852,"w":105,"h":137},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":37,"w":105,"h":137},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.433333,"y":0.771429}
+},
+"plants03/1.png":
+{
+	"frame": {"x":1908,"y":1754,"w":74,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":127,"w":74,"h":71},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.494444,"y":0.871429}
+},
+"plants03/5.png":
+{
+	"frame": {"x":855,"y":1,"w":180,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":180,"h":193},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.494444,"y":0.871429}
+},
+"plants03/6.png":
+{
+	"frame": {"x":855,"y":329,"w":177,"h":208},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":177,"h":208},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.494444,"y":0.871429}
+},
+"plants04/1.png":
+{
+	"frame": {"x":1138,"y":996,"w":139,"h":194},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":139,"h":194},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.5,"y":0.866667}
+},
+"plants04/5.png":
+{
+	"frame": {"x":1138,"y":837,"w":157,"h":197},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":157,"h":197},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.5,"y":0.866667}
+},
+"plants04/6.png":
+{
+	"frame": {"x":1287,"y":1451,"w":165,"h":203},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":4,"w":165,"h":203},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.5,"y":0.866667}
+},
+"plants05/1.png":
+{
+	"frame": {"x":855,"y":196,"w":131,"h":179},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":25,"w":131,"h":179},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.45,"y":0.814286}
+},
+"plants05/2.png":
+{
+	"frame": {"x":1454,"y":1451,"w":141,"h":200},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":141,"h":200},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.45,"y":0.814286}
+},
+"plants05/3.png":
+{
+	"frame": {"x":1138,"y":727,"w":108,"h":198},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":108,"h":198},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.45,"y":0.814286}
+},
+"plants05/4.png":
+{
+	"frame": {"x":1037,"y":598,"w":87,"h":139},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":39,"w":87,"h":139},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.45,"y":0.814286}
+},
+"plants06/4.png":
+{
+	"frame": {"x":1597,"y":1524,"w":90,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":47,"w":90,"h":159},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.472222,"y":0.933333}
+},
+"plants06/5.png":
+{
+	"frame": {"x":1695,"y":1685,"w":110,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":41,"w":110,"h":165},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.472222,"y":0.933333}
+},
+"plants06/6.png":
+{
+	"frame": {"x":1137,"y":1451,"w":148,"h":205},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":1,"w":148,"h":205},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.472222,"y":0.933333}
+},
+"plants07/1.png":
+{
+	"frame": {"x":1881,"y":1879,"w":65,"h":51},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":149,"w":65,"h":51},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.461111,"y":0.928571}
+},
+"plants07/2.png":
+{
+	"frame": {"x":1137,"y":1137,"w":120,"h":184},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":16,"w":120,"h":184},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.461111,"y":0.928571}
+},
+"plants07/4.png":
+{
+	"frame": {"x":1137,"y":1259,"w":174,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":23,"w":174,"h":176},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.461111,"y":0.928571}
+},
+"plants07/5.png":
+{
+	"frame": {"x":1178,"y":598,"w":127,"h":185},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":16,"w":127,"h":185},
+	"sourceSize": {"w":180,"h":210},
+	"anchor": {"x":0.461111,"y":0.928571}
+}},
+"animations": {
+	"logo/SR-Ribbon-Tests-0000": ["logo/SR-Ribbon-Tests-0000_00023.png","logo/SR-Ribbon-Tests-0000_00027.png","logo/SR-Ribbon-Tests-0000_00028.png","logo/SR-Ribbon-Tests-0000_00029.png","logo/SR-Ribbon-Tests-0000_00043.png","logo/SR-Ribbon-Tests-0000_00044.png","logo/SR-Ribbon-Tests-0000_00045.png","logo/SR-Ribbon-Tests-0000_00046.png","logo/SR-Ribbon-Tests-0000_00047.png","logo/SR-Ribbon-Tests-0000_00048.png","logo/SR-Ribbon-Tests-0000_00049.png","logo/SR-Ribbon-Tests-0000_00050.png","logo/SR-Ribbon-Tests-0000_00051.png","logo/SR-Ribbon-Tests-0000_00052.png","logo/SR-Ribbon-Tests-0000_00053.png","logo/SR-Ribbon-Tests-0000_00054.png","logo/SR-Ribbon-Tests-0000_00055.png","logo/SR-Ribbon-Tests-0000_00056.png","logo/SR-Ribbon-Tests-0000_00057.png","logo/SR-Ribbon-Tests-0000_00058.png","logo/SR-Ribbon-Tests-0000_00059.png","logo/SR-Ribbon-Tests-0000_00060.png","logo/SR-Ribbon-Tests-0000_00061.png","logo/SR-Ribbon-Tests-0000_00062.png","logo/SR-Ribbon-Tests-0000_00063.png","logo/SR-Ribbon-Tests-0000_00069.png","logo/SR-Ribbon-Tests-0000_00070.png","logo/SR-Ribbon-Tests-0000_00092.png","logo/SR-Ribbon-Tests-0000_00101.png","logo/SR-Ribbon-Tests-0000_00105.png","logo/SR-Ribbon-Tests-0000_00107.png","logo/SR-Ribbon-Tests-0000_00113.png","logo/SR-Ribbon-Tests-0000_00114.png","logo/SR-Ribbon-Tests-0000_00115.png","logo/SR-Ribbon-Tests-0000_00119.png"],
+	"plants01": ["plants01/2.png","plants01/3.png","plants01/5.png"],
+	"plants02": ["plants02/2.png","plants02/3.png","plants02/4.png","plants02/5.png","plants02/6.png","plants02/7.png","plants02/9.png","plants02/13.png","plants02/14.png","plants02/15.png","plants02/16.png"],
+	"plants03": ["plants03/1.png","plants03/5.png","plants03/6.png"],
+	"plants04": ["plants04/1.png","plants04/5.png","plants04/6.png"],
+	"plants05": ["plants05/1.png","plants05/2.png","plants05/3.png","plants05/4.png"],
+	"plants06": ["plants06/4.png","plants06/5.png","plants06/6.png"],
+	"plants07": ["plants07/1.png","plants07/2.png","plants07/4.png","plants07/5.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprited-1.png",
+	"format": "RGBA8888",
+	"size": {"w":2016,"h":2009},
+	"scale": "1",
+	"related_multi_packs": [ "sprites-0.json", "sprites-2.json", "sprites-3.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:4ab4cddfb2e75d5d9f6a3f2a32db310d:929b2f4d8ca786731414e30f8b62aac8:4ad578e0cb7a714d29363f20bb7cab95$"
+}
+}

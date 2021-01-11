@@ -21,6 +21,7 @@ PIXI.settings.RESOLUTION = window.devicePixelRatio;
 document.body.appendChild(app.view);
 
 let sheetPath = 'assets/spritesheet.json';
+let sheets = 1;
 let plants = [
     'plants01',
     'plants02',
@@ -31,10 +32,18 @@ let plants = [
     'plants07',
 ];
 let sheet;
+let logo;
 let interactionManager;
 let stage = app.stage;
 
+// if (sheets >= 1) {
+//     for (var i = 0; i < sheets; i++) {
+//         app.loader.add(sheetPath + '-' + i + '.json')
+//     }
+// }
+
 app.loader
+    .add('assets/logoGold.png')
     .add(sheetPath)
     .load(setup);
 
@@ -44,13 +53,23 @@ function setup() {
     bg.width = app.screen.width;
     bg.height = app.screen.height;
     stage.addChild(bg);
+    stage.sortableChildren = true;
     stage.hitArea = new PIXI.Rectangle(0, 0, stage.width, stage.height);
     sheet = app.loader.resources[sheetPath].spritesheet;
-
+    AddLogo()
     bg.interactive = true;
     bg.on('pointerdown', onPointerDown);
 }
 
+
+function AddLogo() {
+    logo = new PIXI.Sprite(app.loader.resources['assets/logoGold.png'].texture);
+    logo.anchor.x = 0.5;
+    logo.anchor.y = 0.5;
+    logo.position.set(stage.width / 2, stage.height / 2);
+    logo.zIndex = 50;
+    stage.addChild(logo);
+}
 
 function onPointerDown(e) {
     console.log(e.data.global);
@@ -63,6 +82,7 @@ function onPointerDown(e) {
     // animation.rotation = randomFloat(-100, 100);
     animation.play();
     animation.position.set(pos.x, pos.y);
+    animation.zIndex = randomInt(1, 70);
     app.stage.addChild(animation);
     animation.onLoop = function () {
         // looped!
