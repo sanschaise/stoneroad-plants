@@ -82,7 +82,7 @@ function onPointerDown(e) {
     // animation.rotation = randomFloat(-100, 100);
     animation.play();
     animation.position.set(pos.x, pos.y);
-    animation.zIndex = randomInt(1, 70);
+    animation.zIndex = randomInt(1, 75);
     app.stage.addChild(animation);
     animation.onLoop = function () {
         // looped!
