@@ -65,7 +65,7 @@ function setup() {
     }
 
     console.log(sheets);
-    AddLogo()
+    // AddLogo()
     bg.interactive = true;
     bg.on('pointerdown', onPointerDown);
 }
