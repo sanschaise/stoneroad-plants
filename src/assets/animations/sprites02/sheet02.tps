@@ -177,7 +177,7 @@
             <key>defaultPivotPoint</key>
             <point_f>0,0</point_f>
             <key>writePivotPoints</key>
-            <false/>
+            <true/>
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
@@ -187,15 +187,9 @@
             <key type="filename">01/4.png</key>
             <key type="filename">01/5.png</key>
             <key type="filename">01/6.png</key>
-            <key type="filename">02/1.png</key>
-            <key type="filename">02/2.png</key>
-            <key type="filename">02/3.png</key>
-            <key type="filename">02/4.png</key>
-            <key type="filename">02/5.png</key>
-            <key type="filename">02/6.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0,0</point_f>
+                <point_f>0.482222,0.930476</point_f>
                 <key>spriteScale</key>
                 <double>0.2</double>
                 <key>scale9Enabled</key>
@@ -204,6 +198,58 @@
                 <rect>450,525,900,1050</rect>
                 <key>scale9Paddings</key>
                 <rect>450,525,900,1050</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">02/1.png</key>
+            <key type="filename">02/2.png</key>
+            <key type="filename">02/3.png</key>
+            <key type="filename">02/4.png</key>
+            <key type="filename">02/5.png</key>
+            <key type="filename">02/6.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.474444,0.950476</point_f>
+                <key>spriteScale</key>
+                <double>0.2</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>450,525,900,1050</rect>
+                <key>scale9Paddings</key>
+                <rect>450,525,900,1050</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">03/1.png</key>
+            <key type="filename">03/10.png</key>
+            <key type="filename">03/11.png</key>
+            <key type="filename">03/12.png</key>
+            <key type="filename">03/13.png</key>
+            <key type="filename">03/14.png</key>
+            <key type="filename">03/15.png</key>
+            <key type="filename">03/16.png</key>
+            <key type="filename">03/17.png</key>
+            <key type="filename">03/18.png</key>
+            <key type="filename">03/2.png</key>
+            <key type="filename">03/3.png</key>
+            <key type="filename">03/4.png</key>
+            <key type="filename">03/5.png</key>
+            <key type="filename">03/6.png</key>
+            <key type="filename">03/7.png</key>
+            <key type="filename">03/8.png</key>
+            <key type="filename">03/9.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.416667,0.6025</point_f>
+                <key>spriteScale</key>
+                <double>0.2</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>300,300,600,600</rect>
+                <key>scale9Paddings</key>
+                <rect>300,300,600,600</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

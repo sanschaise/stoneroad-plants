@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^8.2.3",
     "pixi-apngandgif": "^1.0.2",
     "pixi.js": "^5.3.6"
   },

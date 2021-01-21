@@ -1,7 +1,10 @@
 import * as PIXI from 'pixi.js';
+import firebase from "firebase/app";
+import 'firebase/storage';
 // console.log(mobileCheck() ? window.devicePixelRatio : 3);
 
 const isMobile = mobileCheck();
+const isFirebase = false;
 
 
 const app = new PIXI.Application({
@@ -20,7 +23,10 @@ PIXI.settings.RESOLUTION = window.devicePixelRatio;
 
 document.body.appendChild(app.view);
 
-let sheetPath = 'assets/sheets/sprites';
+
+
+
+
 
 let numOfSpriteSheets = 2;
 var sheets = [];
@@ -34,21 +40,35 @@ let plants = [
     'plants07',
 ];
 let sheet;
+let sheetPath;
 let logo;
 let interactionManager;
 let stage = app.stage;
 
+// if (numOfSpriteSheets >= 1) {
+//     for (var i = 1; i < numOfSpriteSheets + 1; i++) {
+//         app.loader.add(sheetPath + '0' + i + '.json')
+
+//     }
+// }
+
+
+
+// if (isFirebase) {
+//     setupFirebase();
+// } else {
+sheetPath = 'assets/sheets/sprites';
 if (numOfSpriteSheets >= 1) {
     for (var i = 1; i < numOfSpriteSheets + 1; i++) {
         app.loader.add(sheetPath + '0' + i + '.json')
 
     }
 }
-
 app.loader
     .add('assets/logoGold.png')
     // .add(sheetPath)
     .load(setup);
+// }
 
 function setup() {
 
@@ -59,13 +79,22 @@ function setup() {
     stage.sortableChildren = true;
     stage.hitArea = new PIXI.Rectangle(0, 0, stage.width, stage.height);
 
+
+
+
+    // if (isFirebase) {
+    //     console.log(sheetPath);
+    //     console.log("a", app.loader.resources.atlas.baseTexture);
+    //     sheets[0] = app.loader.resources[sheetPath].spritesheet;
+    // } else {
     for (var i = 1; i < numOfSpriteSheets + 1; i++) {
         sheets[i - 1] = app.loader.resources[sheetPath + '0' + i + '.json'].spritesheet;
-
+        console.log(sheets[i - 1]);
     }
+    // }
 
     console.log(sheets);
-    // AddLogo()
+    AddLogo()
     bg.interactive = true;
     bg.on('pointerdown', onPointerDown);
 }
@@ -84,11 +113,8 @@ function onPointerDown(e) {
     console.log(e.data.global);
     let pos = e.data.global;
     var spriteAnimations = randomFromArray(sheets).animations;
-    // console.log(Object.size(spriteAnimations));
-    var animationNum = Object.size(spriteAnimations) - 1;
-    var spriteAnimation = randomInt(1, animationNum).toString().padStart(2, '0');
-    console.log(spriteAnimation);
-    var animation = new PIXI.AnimatedSprite(spriteAnimations[spriteAnimation])
+    console.log(randomProp(spriteAnimations))
+    var animation = new PIXI.AnimatedSprite(randomProp(spriteAnimations))
     animation.animationSpeed = 0.15;
 
     animation.scale.x = Math.cos(Math.PI * randomInt(1, 10));
@@ -107,7 +133,7 @@ function onPointerDown(e) {
 }
 
 function randomFromArray(array) {
-    return array[randomInt(0, array.length - 1)];
+    return array[randomInt(0, array.length)];
 }
 
 function spriteOnLoop() {
@@ -116,18 +142,14 @@ function spriteOnLoop() {
 }
 
 function randomInt(min, max) {
-    return Math.floor(Math.random() * (max + (min + 1)))
+    return Math.floor(Math.random() * (max + (min)))
 }
 
 function randomFloat(min, max) {
     return (Math.random() * (max + (min)))
 }
 
-// class MySprite{
-//     constructor(path) {
 
-//     }
-// }
 
 
 function mobileCheck() {
@@ -136,11 +158,57 @@ function mobileCheck() {
     return check;
 };
 
-Object.size = function (obj) {
-    var size = 0,
-        key;
-    for (key in obj) {
-        if (obj.hasOwnProperty(key)) size++;
-    }
-    return size;
+
+
+var randomProp = function (obj) {
+    var keys = Object.keys(obj);
+    return obj[keys[keys.length * Math.random() << 0]];
 };
+
+
+
+// function setupFirebase() {
+//     var firebaseConfig = {
+//         apiKey: "AIzaSyCLn0eciH3JDcDDyTnYJjTKQpLzONSabtc",
+//         authDomain: "stoneroad-13803.firebaseapp.com",
+//         projectId: "stoneroad-13803",
+//         storageBucket: "stoneroad-13803.appspot.com",
+//         messagingSenderId: "268130487831",
+//         appId: "1:268130487831:web:94c13407507421504d5652"
+//     };
+//     // Initialize Firebase
+//     firebase.initializeApp(firebaseConfig);
+
+//     console.log("firebase connected")
+//     var storage = firebase.storage();
+//     var jsonRef = storage.refFromURL('gs://stoneroad-13803.appspot.com/spritesheet.json')
+//     var pngRef = storage.refFromURL('gs://stoneroad-13803.appspot.com/spritesheet.json');
+//     console.log(jsonRef.getDownloadURL());
+
+//     jsonRef.getDownloadURL().then(function (url) {
+
+//         console.log("b", url);
+//         sheetPath = url;
+
+//         app.loader
+//             .add('atlas', url)
+//             .load(setup);
+//         // This can be downloaded directly:
+//         var xhr = new XMLHttpRequest();
+//         xhr.responseType = 'blob';
+//         xhr.onload = function (event) {
+//             var blob = xhr.response;
+//         };
+//         xhr.open('GET', url);
+//         xhr.send();
+
+//         // Or inserted into an <img> element:
+//         var img = document.getElementById('myimg');
+//         img.src = url;
+//     }).catch(function (error) {
+//         // Handle any errors
+//     });
+
+
+
+// }
